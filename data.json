@@ -27,7 +27,7 @@
       "nodes": [
         {
           "name": "B",
-          "distance": 30
+          "distance": 14
         },
         {
           "name": "D",
@@ -43,7 +43,7 @@
       "nodes": [
         {
           "name": "A",
-          "distance": 15
+          "distance": 30
         },
         {
           "name": "C",
@@ -71,6 +71,18 @@
         },
         {
           "name": "F",
+          "distance": 18
+        }
+      ]
+    },
+    {"name":"F",
+      "nodes": [
+        {
+          "name": "D",
+          "distance": 10
+        },
+        {
+          "name": "E",
           "distance": 18
         }
       ]
