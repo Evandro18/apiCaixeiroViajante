@@ -8,9 +8,14 @@ app.use(function(req, res, next) {
   next();
 });
 
-const obj = JSON.parse(fs.readFileSync('data.json', 'utf-8'));
 app.get('/', function (req, res) {
-  res.json(obj);
+ fs.readFile('data.json', 'utf-8', function(error, response) {
+    console.log(JSON.parse(response))
+    if (error) {
+      res.json(error);
+    }
+    res.json(JSON.parse(response));
+  });
 });
 
 app.listen(3000, function () {
