@@ -1,0 +1,78 @@
+{
+    "A": {
+      "nodes": [
+        {
+          "name": "B",
+          "distance": 15
+        },
+        {
+          "name": "D",
+          "distance": 30
+        }
+      ]
+    },
+    "B": {
+      "nodes": [
+        {
+          "name": "A",
+          "distance": 30
+        },
+        {
+          "name": "C",
+          "distance": 14
+        }
+      ]
+    },
+    "C": {
+      "nodes": [
+        {
+          "name": "B",
+          "distance": 30
+        },
+        {
+          "name": "D",
+          "distance": 27
+        },
+        {
+          "name": "E",
+          "distance": 20
+        }
+      ]
+    },
+    "D": {
+      "nodes": [
+        {
+          "name": "A",
+          "distance": 15
+        },
+        {
+          "name": "C",
+          "distance": 27
+        },
+        {
+          "name": "E",
+          "distance": 12
+        },
+        {
+          "name": "F",
+          "distance": 10
+        }
+      ]
+    },
+    "E": {
+      "nodes": [
+        {
+          "name": "C",
+          "distance": 20
+        },
+        {
+          "name": "D",
+          "distance": 12
+        },
+        {
+          "name": "F",
+          "distance": 18
+        }
+      ]
+    }
+}
