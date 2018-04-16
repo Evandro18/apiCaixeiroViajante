@@ -9,7 +9,7 @@ app.use(function(req, res, next) {
 });
 
 const obj = JSON.parse(fs.readFileSync('data.json', 'utf-8'));
-app.get('/caxeiro', function (req, res) {
+app.get('/', function (req, res) {
   res.json(obj);
 });
 
